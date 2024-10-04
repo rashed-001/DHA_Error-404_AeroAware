@@ -1,0 +1,28 @@
+[
+  {
+    "area": "Dhaka",
+    "aqi": 45,
+    "pm25": 12,
+    "pm10": 20,
+    "co2": 400,
+    "o3": 60,
+    "no2": 35,
+    "so2": 12,
+    "temperature": 25,
+    "humidity": 60,
+    "radioactivity": 0.15
+  },
+  {
+    "area": "Rajshahi",
+    "aqi": 50,
+    "pm25": 15,
+    "pm10": 25,
+    "co2": 420,
+    "o3": 62,
+    "no2": 30,
+    "so2": 10,
+    "temperature": 28,
+    "humidity": 55,
+    "radioactivity": 0.18
+  }
+]

@@ -1,0 +1,124 @@
+/* styles/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7fafc; /* Light gray background */
+}
+
+/* Card Styles */
+.card {
+    padding: 1.5rem; /* Card padding */
+    border-radius: 0.375rem; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Card shadow */
+    width: 22%; /* Responsive width */
+    margin-bottom: 1rem; /* Space between cards */
+    margin-right: 1%; /* Small margin for spacing between cards */
+    margin-left: 1%;
+}
+
+.temperature-card {
+    background-color: #f56565; /* Red background */
+    color: #fff; /* White text */
+}
+
+.humidity-card {
+    background-color: #4299e1; /* Blue background */
+    color: #fff; /* White text */
+}
+
+.radioactivity-card {
+    background-color: #48bb78; /* Green background */
+    color: #fff; /* White text */
+}
+
+.bad-elements-card {
+    background-color: #ecc94b; /* Yellow background */
+    color: #fff; /* White text */
+}
+
+.card-container {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space between cards */
+    flex-wrap: wrap; /* Wrap to next line if necessary */
+    padding: 1rem; /* Padding around the container */
+}
+
+
+.chart-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 600px; /* Set a specific height */
+   /* Center in the parent container */
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-bottom: 4%;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) {
+    .card {
+        width: 45%; /* Make cards wider on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%; /* Stack cards vertically on small screens */
+        margin-left: auto; /* Center the cards */
+        margin-right: auto;
+    }
+}
+
+/* src/styles/styles.css */
+
+/* Custom styles for input and button */
+.custom-input {
+    border: 1px solid #d1d5db; /* Light gray border */
+    padding: 0.5rem; /* Padding */
+    border-radius: 0.375rem; /* Rounded corners */
+    width: 20%; /* Full width */
+    margin-left: 40%;
+    margin-top: 2%;
+    transition: border-color 0.2s; /* Smooth transition for border color */
+}
+
+.custom-input:focus {
+    outline: none; /* Remove default outline */
+    border-color: #3b82f6; /* Blue border on focus */
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* Blue shadow */
+}
+
+.custom-button {
+    background-color: #3b82f6; /* Blue background */
+    color: white; /* Text color */
+    padding: 0.5rem 1rem; /* Padding */
+    border-radius: 0.375rem; /* Rounded corners */
+    transition: background-color 0.2s, box-shadow 0.2s; /* Smooth transitions */
+}
+
+.custom-button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+}
+
+.custom-button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* Blue shadow on focus */
+}
+
+/* Responsive styling */
+@media (min-width: 768px) {
+    .custom-input {
+        margin-right: 1rem; /* Right margin for larger screens */
+    }
+}
+
+
+.index-text{
+    text-align: center;
+    size: 20px;
+    margin:10px ;
+    font-weight: bold;
+    font-size: large;
+}
